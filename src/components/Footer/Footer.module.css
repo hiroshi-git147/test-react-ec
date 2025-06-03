@@ -1,0 +1,29 @@
+footer {
+  height: 160px;
+  text-align: center;
+  background: var(--black);
+  padding: 2rem 7%;
+}
+
+.footer__nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem 0;
+}
+
+.footer__sns_nav_li {
+  border: 1px solid white;
+  border-radius: 30%;
+  padding: 0.5em;
+  background: white;
+}
+
+.footer__sns_nav_li_a_img {
+  height: 4rem;
+  vertical-align: bottom;
+}
+
+.footer__nav_a {
+  font-size: 1.6rem;
+}

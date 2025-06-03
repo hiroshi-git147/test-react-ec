@@ -1,0 +1,31 @@
+.menu__section_h1 {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 3.5rem;
+  font-size: 4rem;
+}
+
+.menu__section_span {
+  text-transform: uppercase;
+  color: #d3ad7f;
+}
+
+.menu__section_card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+
+.menu__section_card_box {
+  padding: 5rem;
+  text-align: center;
+  border: 0.1rem solid rgba(255, 255, 255, 0.3);
+}
+
+.menu__section_card_box_img {
+  margin-bottom: 1.6rem;
+}
+
+.menu__section_card_box_price {
+  font-size: 1.6rem;
+}
